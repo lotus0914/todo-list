@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  color: #101828;
+  background: #f5f7fb;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.10), transparent 50%),
+    radial-gradient(circle at top right, rgba(16, 185, 129, 0.10), transparent 45%),
+    #f5f7fb;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
